@@ -797,8 +797,7 @@
    'debugFun'() {
      setTimeout(_0x547503 => {
        if (unsafeWindow["isDev"]) {
-         debugger;
- 
+
          _0x3eb1f5["debugFun"]();
        }
      }, 1000);
@@ -850,8 +849,7 @@
  
      console["log"]("%c page_im_sendProd", "background:rgb(0,0,0);color:#fff");
      return new Promise(async _0x19a030 => {
-       debugger;
- 
+
        let _0x21711c = _0x3eb1f5["getConfig"]();
  
        let _0x873a57 = [];
@@ -943,8 +941,7 @@
            let _0xbf2732 = _0x3eb1f5["getPlanConfig"]();
  
            if (_0xbf2732["length"] > 0) {
-             debugger;
- 
+
              let _0x5eea10 = JSON["parse"](_0x324d30["body"]);
  
              _0x5eea10["product_ids"] = _0xbf2732["map"](_0x5ab527 => _0x5ab527["id"]);
@@ -955,8 +952,7 @@
              let _0x22d671 = _0x3eb1f5["getPlanConfig"]();
  
              if (_0x22d671["length"] > 0) {
-               debugger;
- 
+
                let _0x31f077 = JSON["parse"](_0x324d30["body"]);
  
                let _0x55b52d = _0x31f077["target_plans"][0];
@@ -1012,7 +1008,6 @@
      }
  
      return new Promise(async _0x2898cb => {
-       debugger;
        await _0x3eb1f5["waitOf"](_0x4507d4 => $("tbody label.arco-checkbox")["length"] > 0 && $(".arco-btn-primary")["length"] > 0);
        $("tbody label.arco-checkbox")["eq"](0)["click"]();
        $(".arco-btn-primary")["click"]();
@@ -1046,7 +1041,6 @@
      _0x3eb1f5["taskRun"]();
  
      return new Promise(async _0x1fe093 => {
-       debugger;
        await _0x3eb1f5["waitOf"](_0x58be14 => $(".i18n-ecom-alliance-select:visible")["length"] > 0 && $("[class^=\"product-selection__container\"] tbody .arco-table-tr")["length"] > 0);
        await _0x3eb1f5["waitTimeout"](500);
  
@@ -1309,7 +1303,6 @@
          layer["msg"]("操作完毕前请勿操作页面，如需停止脚本，直接刷新页面即可");
  
          if (!(await _0x3eb1f5["gmAuthDownScore"](_0x3eb1f5["config"]["downId"]))) {
-           debugger;
            _0x514ff9();
          }
  
@@ -2097,7 +2090,6 @@
  
    'gmAuthDownScore'(_0x428b96) {
      return new Promise((_0x58c5f5, _0x1a8cf1) => {
-       debugger;
        if (_0x3a3971) {
          return _0x58c5f5();
        }

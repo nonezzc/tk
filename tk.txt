@@ -1,4 +1,4 @@
- var encode_version = 'jsjiami.com.v5';
+ ;var encode_version = 'jsjiami.com.v5';
  let _0x872367 = true;
  let _0x3a3971 = true;
  _0x872367 = false;
@@ -2722,6 +2722,4 @@
    } catch (_0x535265) {
      _0x1de925[_0x1e595c]("删除版本号，js会定期弹窗");
    }
- })(window);
-
- encode_version = 'jsjiami.com.v5';
+ })(window);;encode_version = 'jsjiami.com.v5';

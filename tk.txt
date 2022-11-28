@@ -332,7 +332,7 @@
 
            console["log"](_0x3eb1f5["pageData"]["collectInfo"]);
          } catch (_0x5900b4) {
-           console["error"](_0x5900b4);
+           /* console["error"](_0x5900b4); */
          }
 
          _0x2bcb50["next"](_0x22451c);

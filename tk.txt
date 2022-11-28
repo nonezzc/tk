@@ -1308,10 +1308,10 @@
        if (!_0x1957c9 || !_0x1957c9["sendMsg"] || !_0x1957c9["invaite"]) {
          layer["msg"]("操作完毕前请勿操作页面，如需停止脚本，直接刷新页面即可");
 
-         if (!(await _0x3eb1f5["gmAuthDownScore"](_0x3eb1f5["config"]["downId"]))) {
+         /* if (!(await _0x3eb1f5["gmAuthDownScore"](_0x3eb1f5["config"]["downId"]))) {
            debugger;
            _0x514ff9();
-         }
+         } */
 
          let _0x8e2db7 = _0x3eb1f5["getReactAttrName"](_0x16a561, "__reactFiber");
 

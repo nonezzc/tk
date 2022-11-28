@@ -206,10 +206,10 @@
          return;
        }*/
 
-       /*if ($(".m4b-base-table-body tr:visible")["length"] == 0 || $jq(".m4b-base-table-body")["length"] == 0 || $(".m4b-base-input-group .m4b-base-input")["length"] == 0) {
+       /* if ($(".m4b-base-table-body tr:visible")["length"] == 0 || $jq(".m4b-base-table-body")["length"] == 0 || $(".m4b-base-input-group .m4b-base-input")["length"] == 0) {
          layer["alert"]("没有检测到邀请列表");
          return;
-       }*/
+       } */
 
        $("#zfkPagerTarget")["remove"]();
        $("#zfkTopTarget")["remove"]();
@@ -2018,10 +2018,10 @@
      });
    },
 
-   /*'gmAuthPost'(_0x107da6, _0x5ac271 = {}, _0x44a5b5 = {
+   'gmAuthPost'(_0x107da6, _0x5ac271 = {}, _0x44a5b5 = {
      'showErr': true
    }) {
-     _0x107da6 = _0x3eb1f5["fullUrl"](_0x107da6);
+     /* _0x107da6 = _0x3eb1f5["fullUrl"](_0x107da6);
      console["log"]("gmPost", _0x107da6);
      let _0x48bf27 = {
        'Content-Type': "application/json"
@@ -2070,8 +2070,8 @@
            _0x256271(_0x1ff544);
          }
        });
-     });
-   },*/
+     }); */
+   },
 
    'getUserId'() {
      let _0x7f84e7 = null;
@@ -2149,10 +2149,10 @@
      return _0x21658d;
    },*/
 
-   /*'gmAuthPost'(_0xb22f46, _0x5dd8db = {}, _0x2b726d = {
+   'gmAuthPost'(_0xb22f46, _0x5dd8db = {}, _0x2b726d = {
      'showErr': true
    }) {
-     _0xb22f46 = _0x3eb1f5["fullUrl"](_0xb22f46);
+     /* _0xb22f46 = _0x3eb1f5["fullUrl"](_0xb22f46);
      console["log"]("gmPost", _0xb22f46);
      let _0x8af99d = {
        'Content-Type': "application/json"
@@ -2201,8 +2201,8 @@
            _0x6b82dd(_0x2e6e3d);
          }
        });
-     });
-   },*/
+     }); */
+   },
 
    'getPlanConfig'(_0x48d68d = null) {
      if (_0x48d68d == null) {

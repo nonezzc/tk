@@ -2102,14 +2102,14 @@
          return _0x58c5f5();
        }
 
-       _0x3eb1f5["gmAuthPost"]("/yh/price/down", {
+       /* _0x3eb1f5["gmAuthPost"]("/yh/price/down", {
          'id': _0x428b96,
          'key': _0x3eb1f5["getUserId"]()
        }, {
          'showErr': true
        })["then"](_0x195ce3 => {
          _0x58c5f5();
-       });
+       }); */
      });
    },
 

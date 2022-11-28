@@ -206,10 +206,10 @@
          return;
        }*/
 
-       if ($(".m4b-base-table-body tr:visible")["length"] == 0 || $jq(".m4b-base-table-body")["length"] == 0 || $(".m4b-base-input-group .m4b-base-input")["length"] == 0) {
+       /*if ($(".m4b-base-table-body tr:visible")["length"] == 0 || $jq(".m4b-base-table-body")["length"] == 0 || $(".m4b-base-input-group .m4b-base-input")["length"] == 0) {
          layer["alert"]("没有检测到邀请列表");
          return;
-       }
+       }*/
 
        $("#zfkPagerTarget")["remove"]();
        $("#zfkTopTarget")["remove"]();

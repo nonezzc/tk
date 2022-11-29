@@ -1269,13 +1269,13 @@
    },
 
    async 'waitPager'(_0x1f8ffa) {
-     await _0x3eb1f5["waitOf2"](_0x1f040a => $jq(".m4b-base-table-body tr:last")[0] != _0x1f8ffa, 1000, 20)["then"](_0x3eef22 => {
+     await _0x3eb1f5["waitOf2"](_0x1f040a => $jq(".m4b-base-table-body tr:last")[0] != _0x1f8ffa, 1000, 60)["then"](_0x3eef22 => {
        if (_0x3eef22) {
          setTimeout(() => {
            _0x3eb1f5["page_marketplace_begin"]();
          }, 3000);
        } else {
-         layer["msg"]("超过20秒还没有完成翻页成功，正在重启邀请流程");
+         layer["msg"]("超过60秒还没有完成翻页成功，正在重启邀请流程");
          $("#zfkTopTarget")["focus"]();
          $("#zfkTopTarget")["blur"]();
          setTimeout(() => {

@@ -1,1 +1,2 @@
 tiktok-24.1.4.apk filter=lfs diff=lfs merge=lfs -text
+quickq.apk filter=lfs diff=lfs merge=lfs -text

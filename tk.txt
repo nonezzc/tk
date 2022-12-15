@@ -1923,7 +1923,7 @@
            return _0x66246();
          }
        }, _0x2c8af7);
-     });
+     }).catch((e) =>{console.log(e)});
    },
 
    'waitOf2'(_0x447a8b, _0x2b6b3e = 1000, _0x54e353 = 30) {
@@ -1950,7 +1950,7 @@
            return _0x141e03(true);
          }
        }, _0x2b6b3e);
-     });
+     }).catch((e) =>{console.log(e)});
    },
 
    'toLogin'() {

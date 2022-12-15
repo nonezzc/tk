@@ -110,7 +110,7 @@
        'type': "1",
        'title': "达人邀约快捷操作",
        'content': "<div class=\"text-center\">\n      <button\n        type=\"button\"\n        id=\"zfkBtnBegin\"\n        onclick=\"zfk.quickBegin()\"\n        class=\"zfk-btn success\"\n      >\n        开始\n      </button>\n      <button\n        type=\"button\"\n        id=\"zfkBtnStop\"\n        onclick=\"zfk.stop()\"\n        class=\"zfk-btn danger\"\n      >\n        结束\n      </button>\n    </div>",
-       'area': ["340px", "150px"],
+       'area': ["240px", "100px"],
        'offset': ["80px", "20px"],
        'shade': 0,
        'btn': null,
@@ -1731,7 +1731,7 @@
        'title': "系统配置",
        'content': _0x25f321,
        'btn': false,
-       'area': ["1380px", "600px"]
+       'area': ["1200px", "600px"]
      });
 
      let _0x3834b3 = _0x3eb1f5["getConfig"]();

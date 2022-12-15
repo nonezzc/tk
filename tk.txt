@@ -1466,9 +1466,9 @@
 
    'registerMenuCommand'() {
      GM_registerMenuCommand("达人菜单", _0x3eb1f5["openConfig"]);
-     GM_registerMenuCommand("数据迁移 ", _0x3eb1f5["openDataMove"]);
+     //GM_registerMenuCommand("数据迁移 ", _0x3eb1f5["openDataMove"]);
      // GM_registerMenuCommand("我的信息", _0x3eb1f5["myInfo"]);
-     GM_registerMenuCommand(_0x3eb1f5["setting"]["version"]["title"], _0x3eb1f5["showVersionAlert"]);
+     //GM_registerMenuCommand(_0x3eb1f5["setting"]["version"]["title"], _0x3eb1f5["showVersionAlert"]);
    },
 
    'exportExcel'(_0x5a552c, _0x4a9735, _0x460810) {

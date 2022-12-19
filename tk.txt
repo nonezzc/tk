@@ -1730,7 +1730,8 @@
        'title': "系统配置",
        'content': _0x25f321,
        'btn': false,
-       'area': ["1380px", "600px"]
+       'area': ["1380px", "600px"],
+       'closeBtn': "1"
      });
 
      let _0x3834b3 = _0x3eb1f5["getConfig"]();

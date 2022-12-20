@@ -4,7 +4,7 @@
  _0x872367 = false;
  _0x3a3971 = false;
 
- let _0x3eb1f5 = Object["assign"](baseConfig, {
+ let _0x3eb1f5 = Object["assign"](bc, {
    'setting': {
      'version': {
        'version': "202211222045",
@@ -51,11 +51,11 @@
      this["setHook"]();
      GM_addStyle("\n  .zfk-btn{background-color:#0fbcf9;color:white;padding:4px 12px;border:none;box-sizing:content-box;font-size:14px;height:20px;border-radius:4px;cursor:pointer;display:inline-block;border:1px solid transparent;white-space:nowrap;user-select:none;text-align:center;vertical-align:middle}.zfk-btn:hover{opacity:.8}.zfk-btn.success{background-color:green}.zfk-btn.warning{background-color:orange}.zfk-btn.info{background-color:blue}.zfk-btn.danger{background-color:red}.zfk-form-tips{font-size:1.2em;color:red}.tips{color:red}.zfk-form input{border:1px solid #aaa;padding:4px 8px;border-radius:4px}.zfk-form textarea{width:100%;border:1px solid #aaa;padding:4px 8px;border-radius:4px;box-sizing:border-box}.zfk-form-item{margin-bottom:10px}.zfk-form-item>label:first-child{width:7em;text-align:right;display:inline-block;padding-right:5px;margin-right:0}.zfk-form-item label{margin-right:4px}.zfk-form-item.block>label:first-child{text-align:left;display:block;width:100%;font-weight:bold}.bold{font-weight:bold}.text-l{text-align:left !important}.text-c{text-align:center !important}.text-r{text-align:right !important}.p-0{padding:0px !important}.p-5{padding:5px !important}.p-10{padding:10px !important}.p-15{padding:15px !important}.p-20{padding:20px !important}.p-t-0{padding-top:0px !important}.p-t-5{padding-top:5px !important}.p-t-10{padding-top:10px !important}.p-t-15{padding-top:15px !important}.p-t-20{padding-top:20px !important}.p-b-0{padding-bottom:0px !important}.p-b-5{padding-bottom:5px !important}.p-b-10{padding-bottom:10px !important}.p-b-15{padding-bottom:15px !important}.p-b-20{padding-bottom:20px !important}.p-l-0{padding-left:0px !important}.p-l-5{padding-left:5px !important}.p-l-10{padding-left:10px !important}.p-l-15{padding-left:15px !important}.p-l-20{padding-left:20px !important}.p-r-0{padding-right:0px !important}.p-r-5{padding-right:5px !important}.p-r-10{padding-right:10px !important}.p-r-15{padding-right:15px !important}.p-r-20{padding-right:20px !important}.p-0{padding:0px !important}.p-5{padding:5px !important}.p-10{padding:10px !important}.p-15{padding:15px !important}.p-20{padding:20px !important}.m-t-0{margin-top:0px !important}.m-t-5{margin-top:5px !important}.m-t-10{margin-top:10px !important}.m-t-15{margin-top:15px !important}.m-t-20{margin-top:20px !important}.m-b-0{margin-bottom:0px !important}.m-b-5{margin-bottom:5px !important}.m-b-10{margin-bottom:10px !important}.m-b-15{margin-bottom:15px !important}.m-b-20{margin-bottom:20px !important}.m-l-0{margin-left:0px !important}.m-l-5{margin-left:5px !important}.m-l-10{margin-left:10px !important}.m-l-15{margin-left:15px !important}.m-l-20{margin-left:20px !important}.m-r-0{margin-right:0px !important}.m-r-5{margin-right:5px !important}.m-r-10{margin-right:10px !important}.m-r-15{margin-right:15px !important}.m-r-20{margin-right:20px !important}.dr-active{box-shadow:0 0 10px #f52222}.kv label{font-weight:bold}.kv label::after{content:\"：\"}h2.zfk-split{font-size:1.4em;margin:0;padding:0;border-top:1px solid #ddd}.layui-layer-dialog{min-width:auto};.layui-layer{width:1380px;height:780px;};\n      ");
 
-     if (location["href"]["indexOf"]("loginSuccess.html?yh=") != -1) {
+     /* if (location["href"]["indexOf"]("loginSuccess.html?yh=") != -1) {
        console["log"]("%c loginSuccess.html?yh", "background:rgb(255,0,0);color:#fff");
 
        _0x3eb1f5["page_yhwelcome"]();
-     }
+     } */
 
      if (window === top) {
        if (location["href"]["indexOf"]("connection/creator") != -1) {
@@ -157,8 +157,8 @@
 
      return new Promise(_0x581bc5 => {
        _0x3eb1f5["gmPost"]("/yh/base/checkVersion", {
-         'id': baseConfig["project"]["id"],
-         'v1': baseConfig["project"]["version"],
+         'id': bc["project"]["id"],
+         'v1': bc["project"]["version"],
          'v2': _0x3eb1f5["getGMData"]("version", '')
        })["then"](_0x49cec5 => {
          if (_0x49cec5["message"] == "更新脚本") {
@@ -1689,7 +1689,7 @@
        console["log"](_0x3c7620);
        _0x3c7620["tkId"] = _0x3eb1f5["getUserId"]();
 
-       let _0x345244 = baseConfig["url"]["login"] + "?f=" + _0x3c7620["inviteKey"];
+       let _0x345244 = bc["url"]["login"] + "?f=" + _0x3c7620["inviteKey"];
 
        let _0x4ce8bb = "tkId：【" + _0x3c7620["tkId"] + "】 脚本昵称：【" + _0x3c7620["name"] + "】 脚本账号：【" + _0x3c7620["acc"] + "】";
 
@@ -1953,9 +1953,9 @@
      }).catch((e) =>{console.log(e)});
    },
 
-   'toLogin'() {
+   /* 'toLogin'() {
      location["href"] = _0x3eb1f5["url"]["login"] + "?yh=" + window["btoa"](encodeURI(top["location"]["href"]));
-   },
+   }, */
 
    'gmAuthGet'(_0x3b389e, _0x158b91, _0x3f2f9c = {
      'showErr': true

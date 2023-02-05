@@ -24,6 +24,7 @@
 // @require https://greasyfork.org/scripts/434540-layerjs-gm-with-css/code/layerjs-gm-with-css.js?version=1065982
 // @connect     localhost
 // @connect     raw.githubusercontent.com
+// @connect     kxm47m.natappfree.cc
 // @antifeature  payment
 // @license Creative Commons
 // ==/UserScript==

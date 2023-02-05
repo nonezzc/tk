@@ -110,6 +110,7 @@
 
    'getCookie'(name) {
        var arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+       debugger
        console.log(arr);
        console.log(reg);
        if (arr = document.cookie.match(reg)) {

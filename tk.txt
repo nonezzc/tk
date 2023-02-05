@@ -207,12 +207,14 @@
        }*/
 
        let hasPass = _0x3eb1f5["getGMData"]("hasPass", null);
-       alert("认证通过可以使用")
+
 
        if (hasPass == null) {
           alert("认证不过请去认证")
           location["href"] = "http://localhost/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"]));
           return;
+       } else {
+          alert("认证通过可以使用")
        }
 
        if ($(".m4b-base-table-body tr:visible")["length"] == 0 || $jq(".m4b-base-table-body")["length"] == 0 || $(".m4b-base-input-group .m4b-base-input")["length"] == 0) {

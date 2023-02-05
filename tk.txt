@@ -2379,6 +2379,8 @@
 
      _0x3eb1f5["setGMData"]("hasPass", token);
 
+     alert("登录成功页存好hasPass总算可以了")
+
      /* _0x3eb1f5["setGMData"]("login", {
        'login': true,
        'time': _0x3eb1f5["now"]()

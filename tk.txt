@@ -108,6 +108,15 @@
      }
    },
 
+   'getCookie'(name) {
+       var arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+       if (arr = document.cookie.match(reg)) {
+            return unescape(arr[2]);
+       } else {
+            return null;
+       }
+   },
+
    'openQuickMenu'() {
      layer["open"]({
        'type': "1",
@@ -214,7 +223,9 @@
 
        if (hasPass == null) {
           alert("认证不过请去认证")
-          location["href"] = "http://localhost/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"]));
+          let shopId = _0x3eb1f5["getCookie"]("SHOP_ID");
+          alert("shopId", shopId)
+          location["href"] = "http://localhost/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
           return;
        } else {
           alert("认证通过可以使用")

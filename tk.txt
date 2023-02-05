@@ -1476,6 +1476,8 @@
      _0x3eb1f5["setGMData"]("run", false);
 
      layer["msg"]("脚本已停止");
+     
+     _0x3eb1f5["delGMData"]("hasPass");
    },
 
    'registerMenuCommand'() {

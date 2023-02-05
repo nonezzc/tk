@@ -2367,6 +2367,7 @@
    },
 
    'page_yhwelcome'() {
+     debugger
      console["log"]("%c page_yhwelcome", "background:rgb(255,0,0);color:#fff");
 
      var token = sessionStorage["getItem"]("token");

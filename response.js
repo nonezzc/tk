@@ -23,7 +23,7 @@
 // @require http://code.jquery.com/jquery-2.1.1.min.js
 // @require https://greasyfork.org/scripts/434540-layerjs-gm-with-css/code/layerjs-gm-with-css.js?version=1065982
 // @connect     raw.githubusercontent.com
-// @connect     2cnksr.natappfree.cc
+// @connect     3442-112-49-5-221.jp.ngrok.io
 // @antifeature  payment
 // @license Creative Commons
 // ==/UserScript==

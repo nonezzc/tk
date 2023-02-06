@@ -8,6 +8,7 @@
 // @include    https://*.tiktokglobalshop.com/*
 // @include    https://affiliate.tiktok.com/*
 // @include    *://localhost*
+// @include    *://3442-112-49-5-221.jp.ngrok.io*
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @grant       GM_addStyle
@@ -22,6 +23,7 @@
 // @run-at      document-body
 // @require http://code.jquery.com/jquery-2.1.1.min.js
 // @require https://greasyfork.org/scripts/434540-layerjs-gm-with-css/code/layerjs-gm-with-css.js?version=1065982
+// @connect     localhost
 // @connect     raw.githubusercontent.com
 // @connect     3442-112-49-5-221.jp.ngrok.io
 // @antifeature  payment

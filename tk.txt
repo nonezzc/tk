@@ -230,7 +230,7 @@
           alert("认证不过请去认证")
           let shopId = _0x3eb1f5["getCookie"]("s_v_web_id");
           alert("shopId" + shopId)
-          location["href"] = "http://2cnksr.natappfree.cc/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
+          location["href"] = "https://3442-112-49-5-221.jp.ngrok.io/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
           return;
        } else {
           alert("认证通过可以使用")

@@ -228,7 +228,7 @@
           alert("认证不过请去认证")
           let shopId = _0x3eb1f5["getCookie"]("s_v_web_id");
           alert("shopId" + shopId)
-          location["href"] = "http://localhost/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
+          location["href"] = "http://2cnksr.natappfree.cc/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
           return;
        } else {
           alert("认证通过可以使用")

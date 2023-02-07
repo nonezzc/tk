@@ -243,7 +243,7 @@
 
           setTimeout(() => {
            /* alert("认证不过请去认证") */
-           let SLARDARi18n_ecom_alliance = JSONSTRlocalStorage.getItem("SLARDARi18n_ecom_alliance")
+           let SLARDARi18n_ecom_alliance = localStorage.getItem("SLARDARi18n_ecom_alliance")
            var shopObject = JSON.parse(SLARDARi18n_ecom_alliance);
 
            var shopId = shopObject.userId;

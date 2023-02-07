@@ -243,8 +243,11 @@
 
           setTimeout(() => {
            /* alert("认证不过请去认证") */
-           let shopId = localStorage.getItem("SLARDARi18n_ecom_alliance");
-           
+           let SLARDARi18n_ecom_alliance = JSONSTRlocalStorage.getItem("SLARDARi18n_ecom_alliance")
+           var shopObject = JSON.parse(SLARDARi18n_ecom_alliance);
+
+           var shopId = shopObject.userId;
+
             alert("shopId" + shopId)
            location["href"] = "https://3442-112-49-5-221.jp.ngrok.io/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
            }, 2000);

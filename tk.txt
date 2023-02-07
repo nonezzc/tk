@@ -111,7 +111,7 @@
    },
 
    'getCookie'(name) {
-       var arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+       /* var arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
        debugger
        console.log(arr);
        console.log(reg);
@@ -119,7 +119,20 @@
             return unescape(arr[2]);
        } else {
             return null;
-       }
+       } */
+       if(document.cookie.length > 0) {  
+           var cookieArr = document.cookie.split(';');  
+           for(var i=0; i<cookieArr.length; i++) {  
+               var arr = cookieArr[i].split('=');  
+               if(arr!=null && arr.length==2) {  
+                   if(arr[0]==name) {  
+                       var value = decodeURI(arr[1]);  
+                       return value;  
+                   }  
+               }  
+           }  
+       }  
+       return null;  
    },
 
    'openQuickMenu'() {

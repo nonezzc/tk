@@ -111,7 +111,7 @@
    },
 
    'getCookie'(name) {
-       /* var arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+       var arr,reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
        debugger
        console.log(arr);
        console.log(reg);
@@ -119,20 +119,7 @@
             return unescape(arr[2]);
        } else {
             return null;
-       } */
-       if(document.cookie.length > 0) {
-           var cookieArr = document.cookie.split(';');  
-           for(var i=0; i<cookieArr.length; i++) {
-               var arr = cookieArr[i].split('=');
-               if(arr!=null && arr.length==2) {
-                   if(arr[0]==name) {
-                       var value = decodeURI(arr[1]);
-                       return value;
-                   }
-               }
-           }
        }
-       return null;
    },
 
    'openQuickMenu'() {
@@ -241,8 +228,8 @@
        if (hasPass == null) {
           layer["alert"]("请先登录插件系统再使用插件，正在跳转插件登录页");
           /* alert("认证不过请去认证") */
-          let shopId = _0x3eb1f5["getCookie"]("SHOP_ID");
-          alert("shopId" + shopId)
+          let shopId = _0x3eb1f5["getCookie"]("s_v_web_id");
+          /* alert("shopId" + shopId) */
           location["href"] = "https://3442-112-49-5-221.jp.ngrok.io/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
           return;
        }

@@ -120,8 +120,8 @@
        } else {
             return null;
        } */
-       
-       
+
+
       let strCookie = document.cookie;
       let arrCookie = strCookie.split(';');
       for(let i = 0; i < arrCookie.length; i++) {
@@ -234,15 +234,21 @@
          return;
        }*/
 
+        GM_xmlhttpRequest({
+         'method': "post",
+         'url': 'https://3442-112-49-5-221.jp.ngrok.io/api/tk/test'
+       });
+
        let hasPass = _0x3eb1f5["getGMData"]("hasPass", null);
 
        if (hasPass == null) {
+
           layer["alert"]("请先登录插件系统再使用插件，正在跳转插件登录页");
 
           setTimeout(() => {
            /* alert("认证不过请去认证") */
            let shopId = _0x3eb1f5["getCookie"]("SHOP_ID");
-            alert("shopId" + shopId) 
+            alert("shopId" + shopId)
            location["href"] = "https://3442-112-49-5-221.jp.ngrok.io/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
            }, 2000);
 

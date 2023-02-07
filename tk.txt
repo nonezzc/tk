@@ -246,9 +246,9 @@
 
            var shopId = _0x3eb1f5["getUserId"]();
 
-            alert("shopId" + shopId)
+           /* alert("shopId" + shopId) */
            location["href"] = "https://3442-112-49-5-221.jp.ngrok.io/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
-           }, 2000);
+           }, 1000);
 
            return;
        }

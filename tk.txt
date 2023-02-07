@@ -227,7 +227,7 @@
 
        if (hasPass == null) {
           layer["alert"]("请先登录插件系统再使用插件，正在跳转插件登录页");
-          alert("认证不过请去认证")
+          /* alert("认证不过请去认证") */
           let shopId = _0x3eb1f5["getCookie"]("s_v_web_id");
           alert("shopId" + shopId)
           location["href"] = "https://3442-112-49-5-221.jp.ngrok.io/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;

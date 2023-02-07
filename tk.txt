@@ -234,10 +234,6 @@
          return;
        }*/
 
-        GM_xmlhttpRequest({
-         'method': "post",
-         'url': 'https://3442-112-49-5-221.jp.ngrok.io/api/tk/test'
-       });
 
        let hasPass = _0x3eb1f5["getGMData"]("hasPass", null);
 
@@ -247,7 +243,8 @@
 
           setTimeout(() => {
            /* alert("认证不过请去认证") */
-           let shopId = _0x3eb1f5["getCookie"]("SHOP_ID");
+           let shopId = localStorage.getItem("SLARDARi18n_ecom_alliance");
+           
             alert("shopId" + shopId)
            location["href"] = "https://3442-112-49-5-221.jp.ngrok.io/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
            }, 2000);

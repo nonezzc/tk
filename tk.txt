@@ -1087,6 +1087,7 @@
    },
 
    async 'page_addPlan'() {
+     debugger;
      console["log"]("%c page_addPlan", "background:rgb(0,0,0);color:#fff");
 
      if (!_0x3eb1f5["isRun"]()) {

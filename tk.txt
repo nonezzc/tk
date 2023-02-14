@@ -76,7 +76,7 @@
        if (_0x3eb1f5["matchUrl"]("creator/detail")) {
          _0x3eb1f5["page_creatorDetail"]();
        } else {
-         if (_0x3eb1f5["matchUrl"]("seller/dashboard/plan/target-plan/add-target-plan?creator_id=")) {
+         if (_0x3eb1f5["matchUrl"]("plan/targeted/create?creator_id=")) {
            _0x3eb1f5["page_addPlan"]();
          }
        }
@@ -99,7 +99,7 @@
        if (_0x3eb1f5["matchUrl"]("creator/detail")) {
          _0x3eb1f5["page_creatorDetail"]();
        } else {
-         if (_0x3eb1f5["matchUrl"]("seller/dashboard/plan/target-plan/add-target-plan?creator_id=")) {
+         if (_0x3eb1f5["matchUrl"]("plan/targeted/create?creator_id=")) {
            _0x3eb1f5["page_addPlan"]();
          } else {
            if (location["href"]["indexOf"]("connection/creator") != -1) {

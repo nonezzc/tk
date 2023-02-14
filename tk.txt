@@ -1791,7 +1791,7 @@
 
      _0x3eb1f5["setZfkImFileContainer"]();
 
-     _0x3eb1f5["showVersionAlert"](false);
+     // _0x3eb1f5["showVersionAlert"](false);
    },
 
    'setZfkImFileContainer'() {

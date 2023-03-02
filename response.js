@@ -7,7 +7,6 @@
 // @author      klong
 // @include    https://*.tiktokglobalshop.com/*
 // @include    https://affiliate.tiktok.com/*
-// @include    https://affiliate.tiktokglobalshop.com/*
 // @include    *://localhost*
 // @include    *://e477-112-49-5-221.jp.ngrok.io*
 // @grant       GM_getValue

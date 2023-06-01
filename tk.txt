@@ -1367,7 +1367,7 @@
          let _0x8e2db7 = _0x3eb1f5["getReactAttrName"](_0x16a561, "__reactFiber");
 
          /* 变更 */
-         let _0x455e79 = _0x16a561["get"](0)[_0x8e2db7]["memoizedProps"]["children"]["props"]["rowKey"];
+         let _0x455e79 = _0x16a561["get"](0)[_0x8e2db7]["memoizedProps"]["children"][0]["props"]["rowKey"];
 
          if (!_0x3eb1f5["isRun"]()) {
            _0x132668(false);
